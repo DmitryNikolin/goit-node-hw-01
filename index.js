@@ -8,7 +8,7 @@ const {
   getContactById,
   addContact,
   removeContact,
-} = require("./db/contacts");
+} = require("./contacts");
 
 program
   .option("-a, --action <type>", "choose action")
