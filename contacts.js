@@ -1,7 +1,6 @@
 const fs = require("fs").promises;
 const path = require("path");
-const { nanoid } = require("nanoid");
-// import { v4 as generateId } from 'uuid';
+const { v4 } = require("uuid")
 
 const contactsPath = path.resolve("./db/contacts.json");
 
@@ -54,7 +53,7 @@ const addContact = async (name, email, phone) => {
     const contactsArr = await listContacts();
 
     const newContact = {
-      id: nanoid(),
+      id: v4(),
       name,
       email,
       phone,
