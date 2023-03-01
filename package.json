@@ -8,8 +8,14 @@
     "start": "node index",
     "start:dev": "nodemon index"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitrynikolin/goit-node-hw-01.git"
+  },
+  "keywords": [],
+  "author": "Dmitry Nikolin <ni-ko-dim@ukr.net>",
   "license": "ISC",
+  "homepage": "https://github.com/dmitrynikolin/goit-node-hw-01#readme",
   "devDependencies": {
     "nodemon": "^2.0.20"
   },
