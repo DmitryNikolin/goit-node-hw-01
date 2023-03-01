@@ -7,7 +7,7 @@
 node index.js --action list
 ```
 
-<img src="https://monosnap.com/file/4atYYaZdnRirQei1UQEkVfOzgqgBIC/1.jpg" alt="1" border="1" />
+<img src="https://i.ibb.co/5s4KYdN/1.jpg" alt="1" border="1" />
 
 ### Get contact by id
 ### Получаем контакт по id
@@ -15,7 +15,7 @@ node index.js --action list
 node index.js --action get --id 5
 ```
 
-<img src="https://monosnap.com/file/RFZ4febO9MAxuOk7Xv0MTk42OaweUB/2.jpg" alt="2" border="1" />
+<img src="https://i.ibb.co/3drZc48/2.jpg" alt="2" border="1" />
 
 ### Add a contact
 ### Добавялем контакт
@@ -23,7 +23,7 @@ node index.js --action get --id 5
 node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
 ```
 
-<img src="https://monosnap.com/file/QcawuwY3KJYORhlVTiYDtTDVWomXlT/3.jpg" alt="3" border="1" />
+<img src="https://i.ibb.co/t8jtXLC/3.jpg" alt="3" border="1" />
 
 ### Remove contact using id
 ### Удаляем контакт используя id
@@ -31,4 +31,4 @@ node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-2
 node index.js --action remove --id=3
 ```
 
-<img src="https://monosnap.com/file/tnGYJ2QlVLGFCfoFAIm2qdW2NHiJVe/4.jpg" alt="4" border="1" />
+<img src="https://i.ibb.co/GTXpf9g/4.jpg" alt="4" border="1" />
