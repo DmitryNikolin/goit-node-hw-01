@@ -1,7 +1,7 @@
 {
   "name": "goit-node-hw-01",
   "version": "1.0.0",
-  "description": "",
+  "description": "### Get and display the entire list of contacts in the form of a table (console.table) ### Получаем и выводим весь список контактов в виде таблицы (console.table)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
