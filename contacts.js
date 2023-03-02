@@ -18,12 +18,16 @@ const listContacts = async () => {
 // # Get contact by id: node index.js --action get --id 5
 
 const getContactById = async (id) => {
-  const contactsArr = await listContacts();
-  const contact = contactsArr.find((element) => element.id === id);
-  if (!contact) {
-    return null;
+  try {
+    const contactsArr = await listContacts();
+    const contact = contactsArr.find((element) => element.id === id);
+    if (!contact) {
+      return null;
+    }
+    return contact;
+  } catch(error) {
+    console.error(error.message.red);
   }
-  return contact;
 };
 
 // # Remove contact using id: node index.js --action remove --id 3
@@ -51,7 +55,6 @@ const removeContact = async (id) => {
 const addContact = async (name, email, phone) => {
   try {
     const contactsArr = await listContacts();
-
     const newContact = {
       id: v4(),
       name,
