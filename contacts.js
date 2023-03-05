@@ -1,8 +1,8 @@
 const fs = require("fs").promises;
 const path = require("path");
-const { v4 } = require("uuid")
+const { v4 } = require("uuid");
 
-const contactsPath = path.resolve("./db/contacts.json");
+const contactsPath = path.join(__dirname, "db", "contacts.json");
 
 // # Get and display the entire list of contacts in the form of a table (console.table): node index.js --action list
 
@@ -25,7 +25,7 @@ const getContactById = async (id) => {
       return null;
     }
     return contact;
-  } catch(error) {
+  } catch (error) {
     console.error(error.message.red);
   }
 };
